@@ -1,0 +1,22 @@
+public class Day {
+        public Day02() throws IOException {
+            Path filePath = Paths.get("C:/Users/pism/Documents/AOC/src/Day01       /depth.txt");
+            Scanner scanner = new Scanner(filePath);
+            integers = new ArrayList<>();
+            while (scanner.hasNext()) {
+                if (scanner.hasNextInt()) {
+                    integers.add(scanner.nextInt());
+                } else {
+                    scanner.next();
+                }
+            }
+        }
+
+    public int firstChallenge() {
+
+    }
+
+    public int secondChallenge() {
+
+    }
+}
