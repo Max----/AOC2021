@@ -12,7 +12,7 @@ public class Day01 {
     List<Integer> integers;
 
     public Day01() throws IOException {
-        Path filePath = Paths.get("C:/Users/pism/Documents/AOC2021/src/Day01/depth.txt");
+        Path filePath = Paths.get("src/Day01/depth.txt");
         Scanner scanner = new Scanner(filePath);
         integers = new ArrayList<>();
         while (scanner.hasNext()) {
