@@ -1,14 +1,16 @@
+package Day03;
+
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Day {
+public class Day03 {
 
     ArrayList<Integer> integers;
 
-    public Day() throws IOException {
+    public Day03() throws IOException {
         Path filePath = Paths.get("C:/Users/pism/Documents/AOC/src/Day/input.txt");
         Scanner scanner = new Scanner(filePath);
         integers = new ArrayList<>();
